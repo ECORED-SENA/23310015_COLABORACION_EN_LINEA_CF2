@@ -2,18 +2,177 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 20%
+    right: 70%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
-
-
+    top: 21%
+    right: 15%
+    width: 80px
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 61%
+    right: 20%
+  
 @keyframes float1
   0%
     transform: translateY(20px)
 
   100%
     transform: translateY(0px)
+
+.bg
+  &--1
+    background-color: $color-primario !important
+    &-claro
+      background-color: #DCCCEC !important
+  &--2
+    background-color: $color-secundario !important
+    &-claro
+      background-color: #99EBF7 !important
+    &-claro-2
+      background-color: #CCF5FB !important
+  &--3
+    background-color: #59FFCC !important
+    &-claro
+      background-color: #D5FFF2 !important
+    &-claro-2
+      background-color: #EEFFFA !important
+  &--4
+    background-color: $color-acento-botones !important
+    &-claro
+      background-color: #FFF6D1 !important
+.color
+  &--1
+    color: $color-primario !important
+    &-claro
+      color: lighten($color-primario, 30% ) !important
+  &--2
+    color: $color-secundario !important
+    &-claro
+      color: lighten($color-secundario, 30% ) !important
+  &--3
+    color: $color-acento-contenido !important
+    &-claro
+      color: lighten($color-acento-contenido, 40% ) !important
+  &--4
+    color: $color-acento-botones !important
+    &-claro
+      color: lighten($color-acento-botones, 30% ) !important
+.contenedor
+  border-radius: 100px 0px 100px 0px
+  @media (min-width: $bp-min-lg)
+    margin-top: 80px !important
+    margin-bottom: 100px !important
+  position: relative
+  .avatar
+    display: flex
+    img
+      margin: 0 auto
+      width: 200px !important
+      display: none
+      @media (max-width: $bp-max-md)
+        display: block
+
+  .contenedor-img
+    &__0
+      position: absolute
+      bottom: 0px
+      right: 30px
+
+    &__1
+      position: absolute
+      top: 0
+      transform: translateY(-30%)
+    &__2
+      position: absolute
+      bottom: 0
+      right: 0
+    &__3
+      position: absolute
+      bottom: 0
+      left: 0
+    &__4
+      position: absolute
+      top: -30px
+      left: 0
+    &__5
+      position: absolute
+      bottom: 0
+      left: 0
+    &__6
+      position: absolute
+      bottom: 0
+      left: 200px
+    &__7
+      position: absolute
+      bottom: -60px
+      left: 50px
+    &__8
+      position: absolute
+      bottom: 0
+      left: 0px
+    &__9
+      position: absolute
+      bottom: -70px
+      left: 38%
+    @media (max-width: $bp-max-lg)
+      &__0, &__1, &__2, &__3, &__4, &__5, &__6, &__7, &__8, &__9, 
+        display: none
+.slyder__btn
+  background-color: #DBCFE7
+  margin-left: 5px
+.texto-adorno
+  position: relative
+  &::after
+    position: absolute
+    content: url(../assets/curso/play-icon.svg)
+    width: 114px
+    height: 30px
+    bottom: -50px
+    left: 0
+.tabla_personalizada
+  overflow: auto
+  table-layout: fixed !important
+  text-align: center
+  tr
+    width: fit-content
+  tbody
+    tr:nth-child(even)
+      background-color: #DEFFF5
+  
+.tabla_personalizada2
+  overflow: auto
+  table-layout: fixed !important
+  text-align: center
+  tr
+    width: fit-content
+  tbody
+    tr:nth-child(even)
+      background-color: #FFF6D1
+.hover
+  transition: transform .4s ease-in-out
+  &:hover
+    transform: scale(1.1)
+
+.titulo-principal__numero
+  background-color: #5000A1
+.titulo-principal__numero span  
+  color: #fff
+
+.wrap-player
+  z-index: 99 !important
+  
+
+.cajon.color-acento-contenido
+  background: #dbf
+
+.fondo-1
+  background-image: url(../assets/curso/fondo.svg)
+  background-size: contain
+  background-repeat: no-repeat
+
+.lista-ol--cuadro__vineta span
+  font-size: .8em

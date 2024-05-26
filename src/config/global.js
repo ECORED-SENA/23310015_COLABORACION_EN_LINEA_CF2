@@ -1,17 +1,22 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Identidad digital',
+    descripcionCurso:
+      'El consumo de servicios digitales cada vez es mayor, por lo que se dejan rastros en la red que son importantes gestionar, evitando estar expuesto a riesgos y amenazas. En este componente, se lograrán habilidades para ser un mejor ciudadano digital del siglo XXI, con una mirada ética y responsable de la comunicación con los demás y de la información que se comparte.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/a1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/a2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/a3.png'),
       },
     ],
   },
@@ -30,28 +35,60 @@ export default {
       },
       {
         nombreRuta: 'tema1',
+        icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Identidad digital',
         desarrolloContenidos: true,
         subMenu: [
           {
+            icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Qué son los perfiles digitales (públicos y privados)',
             hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Tipos de perfiles digitales ',
+            hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo: 'Elementos de la identidad digital ',
+            hash: 't_1_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.4',
+            titulo: 'Tipos de identidad digital',
+            hash: 't_1_4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.5',
+            titulo: 'Uso y consumo de contenidos',
+            hash: 't_1_5',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.6',
+            titulo: 'Leyes y tratamiento de datos',
+            hash: 't_1_6',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.7',
+            titulo: 'Uso ético de la información digital',
+            hash: 't_1_7',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
+        icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Herramientas digitales',
         desarrolloContenidos: true,
       },
     ],
@@ -102,32 +139,132 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Identidad digital ',
+      referencia:
+        'Oficina de Seguridad del Internauta. (2020). <em>Identidad digital. ¿Quiénes somos la red?</em>',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=rNmXiYY9iHA  ',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Identidad digital ',
+      referencia:
+        'Gobierno de la Provincia de Buenos Aires, UNICEF & Faro Digital. (2016). Guía de sensibilización sobre Convivencia Digital. ',
+      tipo: 'PDF',
+      descarga: '/downloads/COM-Guia_ConvivenciaDigital_ABRIL2017.pdf',
+    },
+    {
+      tema: 'Identidad digital ',
+      referencia:
+        'Fundación Telefónica. (2013). Identidad Digital: El nuevo usuario en el mundo digital. Editorial Ariel. ',
+      tipo: 'PDF',
+      descarga: '/downloads/identidad_digital.pdf',
+    },
+    {
+      tema: 'Leyes y tratamiento de datos  ',
+      referencia: 'Universidad de Alicante. (2019). <em>Netiqueta.</em> ',
+      tipo: 'PDF',
+      descarga: '/downloads/CI2_intermedio_2017-18_Netiqueta.pdf',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Aplicación móvil (app) ',
+      significado:
+        'programa informático empaquetado para poder ser utilizado en dispositivos móviles. Pueden ser gratuitos o de pago, se descargan de tiendas Android o IOS.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Blog ',
+      significado:
+        'sitio web que recopila información en orden cronológico, tipo diario; puede ser personal o empresarial; se usa para noticias o artículos. ',
+    },
+    {
+      termino: 'Comunidad ',
+      significado:
+        'grupo de personas que se reúnen para poder compartir información de interés y se comunican de manera síncrona o asíncrona. ',
+    },
+    {
+      termino: 'Firma digital ',
+      significado:
+        'documento electrónico cifrado para proteger información y verificar la fuente desde donde fue emitida.',
+    },
+    {
+      termino: 'Identidad digital ',
+      significado:
+        'rasgos que una persona, grupo u organización tiene en medios digitales, generados a partir de su actuar en la red.',
+    },
+    {
+      termino: 'Reputación <em>online</em>',
+      significado:
+        'opiniones, comentarios o calificaciones de una persona o empresa que está presente en Internet.',
+    },
+    {
+      termino: 'Youtuber',
+      terminoHtml: '<i>Youtuber</i>',
+      significado:
+        'llamados también influenciadores digitales, son las personas que suben contenidos a Internet para poder compartirlos en plataformas digitales como YouTube.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Ecoprensa. (2016). Redes sociales: los límites de lo público y lo privado. elEconomista América.  ',
+      link:
+        'https://www.eleconomistaamerica.co/telecomunicacion-tecnologia-cl/noticias/7790793/08/16/Redes-sociales-los-limites-de-lo-publico-y-lo-privado.html',
+    },
+    {
+      referencia:
+        'Fundación telefónica. (2013). Identidad Digital: El nuevo usuario en el mundo digital. Editorial Ariel. ',
+      link:
+        'https://www.ufasta.edu.ar/biblioteca/files/2017/02/identidad_digital.pdf',
+    },
+    {
+      referencia: 'Innova School. (s. f.). PLE y PLN Básico. Ébolo.  ',
+      link: 'https://ebolo.es/welearning/innovaschool/modulos/ple1/index.html',
+    },
+    {
+      referencia:
+        'Martínez, P. (2017). Estudio de Uso y Actitudes de Consumo de Contenidos Digitales. Ministerio de Energía, Turismo y Agenda Digital. ',
+      link:
+        'https://www.ontsi.es//sites/ontsi/files/Uso%20y%20actitudes%20de%20consumo%20de%20contenidos%20digitales.%20Julio%202017.pdf',
+    },
+    {
+      referencia:
+        'Mejia, R. (2016). Construyendo nuestra identidad digital. rubenmejiasite. ',
+      link:
+        'https://rubenmejiasite.wordpress.com/2016/08/21/construyendo-nuestra-identidad-digital/',
+    },
+    {
+      referencia:
+        'ProTalento. (2020). Habilidades digitales en Colombia. ¿El futuro digital es de todos? GAN Colombia. ',
+      link:
+        'http://www.andi.com.co/Uploads/GAN_HabilidadesDigitales_COL_V8.pdf',
+    },
+    {
+      referencia:
+        'Rivera, C. (2014). Identidad digital... ¿ser o no ser? Infotecarios.',
+      link:
+        'https://www.infotecarios.com/identidad-digital-ser-o-ser/#.Yuph0hHPxPY',
+    },
+    {
+      referencia:
+        'Sabater, C. (2014). La vida privada en la sociedad digital. La exposición pública de los jóvenes en Internet. Aposta, (61), p. 1-32. ',
+      link: 'https://www.redalyc.org/pdf/4959/495950257001.pdf',
+    },
+    {
+      referencia:
+        'Superintendencia de Industria y Comercio. (2018). Protección de datos personales. Gov.co.  ',
+      link: 'https://www.sic.gov.co/sobre-la-proteccion-de-datos-personales',
+    },
+    {
+      referencia: 'Universidad de Alicante. (2019). Netiqueta.  ',
+      link:
+        'https://rua.ua.es/dspace/bitstream/10045/79601/2/CI2_intermedio_2017-18_Netiqueta.pdf',
+    },
+    {
+      referencia:
+        'Universidad Pablo de Olavide. (2020). Gestión de la Identidad Digital.  ',
+      link:
+        'https://rio.upo.es/xmlui/bitstream/handle/10433/8986/Gestión%20de%20la%20Identidad%20Digital.pdf?sequence=1&isAllowed=y',
     },
   ],
   creditos: [
@@ -150,9 +287,27 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Pedro Javier Lozada Villota',
+          cargo: 'Experto temático',
+          centro:
+            'Centro de Teleinformática y Producción Industrial - Regional Cauca',
+        },
+        {
+          nombre: 'Paula Andrea Taborda Ortiz',
+          cargo: 'Diseñadora instruccional',
+          centro: 'Centro de Diseño y Metrología - Regional distrito capital',
+        },
+        {
+          nombre: 'Ana Catalina Córdoba Sus',
+          cargo: 'Revisora Metodológica y Pedagógica',
+          centro:
+            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+        },
+        {
+          nombre: 'José Gabriel Ortiz Abella',
+          cargo: 'Corrector de estilo',
+          centro:
+            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
         },
       ],
     },
@@ -160,23 +315,33 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de Contenidos Digitales',
+          nombre: 'Yerson Fabian Zarate',
+          cargo: 'Diseño web',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador Fullstack',
+          nombre: 'Edgar Mauricio Cortes García',
+          cargo: 'Desarrollo front-end',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
+          nombre: 'Zuleidy María Ruiz Torres',
+          cargo: 'Producción audiovisual',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Actividad Didáctica',
+          nombre: 'Wilson Andrés Arenales Cáceres',
+          cargo: 'Producción audiovisual',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
+        {
+          nombre: 'María Carolina Tamayo Lopez ',
+          cargo: 'Producción audiovisual',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
+        {
+          nombre: 'Carlos Eduardo Garavito Parada',
+          cargo: 'Producción audiovisual',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
