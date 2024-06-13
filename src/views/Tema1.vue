@@ -38,7 +38,7 @@
         p Tener presencia en el mundo o en la era digital a la cual te enfrentas hoy en día, y, más aún, poder crear valor frente aquello que se te presenta responde a una serie de características propias y sociales, que van desde cómo te comportas en dicho mundo, diciendo quién eres, e igualmente, cómo quieres que te vean, y por último, y más importante aún, cómo te ven. Estos aspectos hacen que se generen modelos y patrones que interfieren en tus rasgos digitales.
       .tarjeta.bg--1-claro.p-4(titulo="Consumo de contenidos digitales").p-5
         h4 Consumo de contenidos digitales
-        p El consumo de todos los contenidos que se te presentan con las plataformas digitales, desde redes sociales, buscadores, sitios o portales web, apps móviles, videoconferencias, entre otras, va generando datos intrínsecos, que hacen dejar huella de tu información y así crear un perfil digital, sin saberlo, de forma inconsciente. Es por ello que es importante que estés consciente de qué se trata y cómo gestionarlo, para evitar riesgos y amenazas.
+        p El consumo de todos los contenidos que se te presentan con las plataformas digitales, desde redes sociales, buscadores, sitios o portales #[em web, apps] móviles, videoconferencias, entre otras, va generando datos intrínsecos, que hacen dejar huella de tu información y así crear un perfil digital, sin saberlo, de forma inconsciente. Es por ello que es importante que estés consciente de qué se trata y cómo gestionarlo, para evitar riesgos y amenazas.
       .tarjeta.bg--1-claro.p-4(titulo="Transformaciones digitales").p-5
         h4 Transformaciones digitales
         p Las diversas oportunidades que se presentan con las transformaciones digitales son una prioridad en muchos gobiernos; y siendo parte de la sociedad actual, logran que todos los servicios de estas herramientas lleguen a muchas más personas y sean accesibles desde cualquier lugar y momento, lo que supone muchos desafíos, haciendo que personas, empresas, instituciones y el mismo Gobierno deban poseer una identidad digital definida que abra las posibilidades a nuevas oportunidades.
@@ -113,7 +113,7 @@
       .row 
         .col-lg-7
           h4 Perfil digital público
-          p Se crean para compartir todo tipo de información y están abiertos a todo tipo de personas o usuarios digitales, los cuales pueden ser consultados por cualquier individuo, organización o gobierno, y la configuración de la privacidad depende del gestor de la cuenta, al igual que lo que tu publiques en ellos dependerá de las políticas de seguridad. 
+          p Se crean para compartir todo tipo de información y están abiertos a todo tipo de personas o usuarios digitales, los cuales pueden ser consultados por cualquier individuo, organización o gobierno, y la configuración de la privacidad depende del gestor de la cuenta, al igual que lo que tú publiques en ellos dependerá de las políticas de seguridad. 
 
           h4 Perfil digital privado
           p Dentro de los perfiles digitales privados, se puede inferir que son aquellos que se categorizan o sectorizan en comunidades cerradas con fines comunes, ya sean académicos, científicos, personales o sociales; este tipo de perfiles es utilizado para poder llegar a usuarios digitales con características afines y propias, y su contenido digital es dirigido a un grupo de personas que poseen los permisos suficientes para poder observar la información. 
@@ -192,7 +192,7 @@
         .tarjeta.bg--2-claro.p-4.mb-4.h-100.hover
           img(src='@/assets/curso/22.svg', alt='Texto que describa la imagen' style='width: 67px').mb-3
           .h4 Propios
-          p Son los que generas cuando interactúas en las diversas plataformas, un like o me gusta, las suscripciones, las opiniones que dejas en foros o grupos, valoraciones digitales de productos o servicios. Esto brinda un perfil de consumo de servicios que configura tu identidad y puede ser recopilado y analizado para determinar patrones de comportamiento.
+          p Son los que generas cuando interactúas en las diversas plataformas, un #[em like] o me gusta, las suscripciones, las opiniones que dejas en foros o grupos, valoraciones digitales de productos o servicios. Esto brinda un perfil de consumo de servicios que configura tu identidad y puede ser recopilado y analizado para determinar patrones de comportamiento.
     p.mb-5 Por ende, desde este modelo planteado por Fanny Georges, un individuo, una organización o cualquier participante activo de Internet puede tener diferentes identidades con las características propias de su comportamiento.
 
     .row.justify-content-center.mb-4
@@ -332,7 +332,7 @@
             h3 Experto en
               br
               |analítica <i>web</i> 
-            p.mb-0 Mide, recopila y analiza datos que produce la #[em web]. Son ingenieros, matemáticos y estadísticos con manejo de herramientas web.
+            p.mb-0 Mide, recopila y analiza datos que produce la #[em web]. Son ingenieros, matemáticos y estadísticos con manejo de herramientas #[em web.]
       .col-lg-4.margin-bottom
         .tarjeta-avatar.borde-1.py-5.px-3.h-100
           .avatar-1
@@ -341,14 +341,14 @@
             h3 Editor de
               br
               |contenidos
-            p.mb-0 Se documenta y sigue las novedades de su nicho de mercado para generar contenidos. Son profesionales capaces de identificar objetivos, mercado nicho y palabras clave.
+            p.mb-0 Documenta y sigue las novedades de su nicho de mercado para generar contenidos. Son profesionales capaces de identificar objetivos, mercado nicho y palabras clave.
       .col-lg-4.margin-bottom
         .tarjeta-avatar.borde-1.py-5.px-3.h-100
           .avatar-1
             img(src='@/assets/curso/30.svg' alt='AvatarTop')
           .mt-5
             h3.fst-italic Community manager 
-            p.mb-0 Experto en RRSS, conoce la empresa, sus objetivos, clientes y productos. Son profesionales que acercan a la compañía a la sociedad, generando debates y respondiendo problematizaciones de los clientes.
+            p.mb-0 Experto en RRSS, conoce la empresa, sus objetivos, clientes y productos. Son profesionales que acercan a la compañía a la sociedad, generando debates y respondiendo a problematizaciones de los clientes.
       .col-lg-12.margin-bottom
         .tarjeta-avatar.borde-1.py-5.px-3.h-100
           .avatar-1
@@ -490,7 +490,7 @@
         .row.p-5
           .col-md-6.mb-4.mb-md-0
             h4 Legal
-            p La identidad legal que tu puedes tener dentro de los medios digitales contiene todo tipo de información con tu comportamiento como ente activo de una sociedad. Contenidos en bases de datos bancarias y transacciones financieras; es la información sensible que registras en plataformas normalmente seguras, dedicadas a registrar tus movimientos digitales importantes. Como ejemplo, se pueden tomar antecedentes disciplinarios, bancarios, fiscales y policiales. Normalmente, son regulados y controlados por entes gubernamentales que, por medio de leyes y normas, protegen tu privacidad e integridad.
+            p La identidad legal que tú puedes tener dentro de los medios digitales contiene todo tipo de información con tu comportamiento como ente activo de una sociedad. Contenidos en bases de datos bancarias y transacciones financieras; es la información sensible que registras en plataformas normalmente seguras, dedicadas a registrar tus movimientos digitales importantes. Como ejemplo, se pueden tomar antecedentes disciplinarios, bancarios, fiscales y policiales. Normalmente, son regulados y controlados por entes gubernamentales que, por medio de leyes y normas, protegen tu privacidad e integridad.
           .col-md-6.mb-4.mb-md-0: img(src='@/assets/curso/48.jpg')
       .py-4.py-md-5(titulo="Ficticia" :icono="require('@/assets/curso/38.svg')" :icono2="require('@/assets/curso/39.svg'  )" )
         .row.p-5
@@ -539,13 +539,13 @@
           .col-md-7.mb-4.mb-md-0
             h4 Redes sociales
             p El uso de estas plataformas de comunicación y colaboración ha tomado mucho auge en el mundo digital. Es una de las mejores formas para poder tener tu propia identidad digital, ya que puedes crear perfiles y compartir todo tipo de información (fotos, videos, etc.). Muchas plataformas permiten configurar tu privacidad y solo mostrar lo que tú quieras, pero esto no hace que sus datos estén totalmente protegidos, ya que depende de ti cómo compartas y divulgues tus datos ante los demás contactos, y estos pueden hacer lo mismo.
-      .py-3.py-md-4(titulo="Blogs")
+      .py-3.py-md-4(titulo="#[em Blogs]")
         .row.px-5
           .col-md-5
             figure
               img(src='@/assets/curso/55.jpg', alt='Texto que describa la imagen')
           .col-md-7.mb-4.mb-md-0
-            h4 Blogs
+            h4 #[em Blogs]
             p Este contenido es tipo diario o bitácora. Muchos usuarios comparten información cronológica, no solo en el ámbito personal, sino profesional y empresarial. Este consumo de servicios se alterna con otros para poder dar más soporte a tu identidad personal, como un aliado estratégico a la hora de comunicar y compartir información. Su nombre proviene de los barcos navíos que llevaban un registro de lo que aconteció durante la navegación, registrando día a día lo que sucedía. Por esta razón, su estructura funcional radica en fechas, entradas y <i>posts</i>.
       .py-3.py-md-4(titulo="Portales de noticias y sitios <i>web</i>")
         .row.px-5
@@ -570,7 +570,7 @@
               img(src='@/assets/curso/58.jpg', alt='Texto que describa la imagen')
           .col-md-7.mb-4.mb-md-0
             h4 Textos, fotos o videos y repositorios
-            p El consumo masivo de información en portales de entretenimiento, ocio y trabajo es impresionante; existen portales de almacenamiento donde puedes recuperar todo tipo de datos, desde gratuitos hasta los llamados premium o pagos. Los formularios de registro, a través de la solicitud de información que poseen, analizan lo que hayas consignado para sugerirte qué necesitas mientras estás navegando en ellos.
+            p El consumo masivo de información en portales de entretenimiento, ocio y trabajo es impresionante; existen portales de almacenamiento donde puedes recuperar todo tipo de datos, desde gratuitos hasta los llamados #[em premium] o pagos. Los formularios de registro, a través de la solicitud de información que poseen, analizan lo que hayas consignado para sugerirte qué necesitas mientras estás navegando en ellos.
       .py-3.py-md-4(titulo="Videojuegos")
         .row.px-5
           .col-md-5
@@ -578,7 +578,7 @@
               img(src='@/assets/curso/59.jpg', alt='Texto que describa la imagen')
           .col-md-7.mb-4.mb-md-0
             h4 Video juegos
-            p Este segmento ha tomado fuerza los últimos años. Los diferentes sectores socioeconómicos realizan su consumo desde niños hasta adultos; la gran mayoría de plataformas es de pago y la percepción de usuarios cambia en las diferentes esferas del tejido social y cultural.
+            p Este segmento ha tomado fuerza en los últimos años. Los diferentes sectores socioeconómicos realizan su consumo desde niños hasta adultos; la gran mayoría de plataformas es de pago y la percepción de usuarios cambia en las diferentes esferas del tejido social y cultural.
     p.mb-5 El consumo de contenidos digitales ha sido un pilar del sector económico en todo el mundo, millones y millones de datos están disponibles para todo tipo de usuarios, su frecuencia de consumo va en crecimiento, y está presente en el ámbito laboral, familiar, personal, profesional y empresarial.
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -651,7 +651,7 @@
             img(src="@/assets/curso/62.svg" style="width: 272px").m-auto
           .bloque-texto-g__texto.p-4
             p.mb-0
-              b La netiqueta son las normas de comportamiento en Internet. Todo acto de comunicación debe de tener sus normas, hacen parte de la “buena educación” que debes de tener cuando interactúas con un individuo o un grupo de personas en la red, sobre todo, de forma escrita, la cual puede ser entendida, interpretada o malinterpretada, ya que la oralidad tiene ciertas características que permiten vislumbrar mejor los procesos comunicativos. Debes de tener en cuenta que las palabras son la mejor arma del ser humano, y aquí aprenderás cuáles son las normas para poder comunicarte en todo medio digital.
+              b La netiqueta son las normas de comportamiento en Internet. Todo acto de comunicación debe tener sus normas, hacen parte de la “buena educación” que debes tener cuando interactúas con un individuo o un grupo de personas en la red, sobre todo, de forma escrita, la cual puede ser entendida, interpretada o malinterpretada, ya que la oralidad tiene ciertas características que permiten vislumbrar mejor los procesos comunicativos. Debes tener en cuenta que las palabras son la mejor arma del ser humano, y aquí aprenderás cuáles son las normas para poder comunicarte en todo medio digital.
     .contenedor.bg--4-claro.p-5.mb-5
       .avatar: img(src='@/assets/curso/avatar1.svg', alt='Texto que describa la imagen' style='width: 582px')
       .contenedor-img__8: img(src='@/assets/curso/63.svg', alt='Texto que describa la imagen' style='width: 293px')
@@ -728,12 +728,12 @@
             p Excusa los errores de otros usuarios digitales. Como el ser humano que eres, debes comprender que se cometen errores, así como te gustaría que te comprendieran a ti.
     #t_1_7.titulo-segundo(data-aos='fade-right')
       h2 1.7 Uso ético de la información digital
-    p.mb-5 La adopción de las TIC y su uso hacen parte de tu diario vivir, en todas las esferas sociales; por lo tanto, debes de tener en cuenta que la ética debe jugar un papel importante. En este componente, se plantea una triada entre Tecnología – Valores – Personas, donde intervienen algunos componentes como lo social, lo cultural, la justicia y las situaciones que se te presenten, y que conforman, en una sumatoria, un contexto ético de la información.
+    p.mb-5 La adopción de las TIC y su uso hacen parte de tu diario vivir, en todas las esferas sociales; por lo tanto, debes tener en cuenta que la ética debe jugar un papel importante. En este componente, se plantea una tríada entre Tecnología – Valores – Personas, donde intervienen algunos componentes como lo social, lo cultural, la justicia y las situaciones que se te presenten, y que conforman, en una sumatoria, un contexto ético de la información.
     .row.justify-content-center.mb-5
       .col-lg-8
         .cajon.color-acento-contenido.p-4.mb-4
           p
-            b Este contexto que se propone emerge de factores y retos que debes de afrontar al pertenecer a la familia digital mundial, para poder manejar con la mayor entereza toda la información que encuentres, donde se redefine continuamente el intercambio rápido y eficiente de conocimiento e información, sin importar tiempo o lugar, como lo has visto dentro de estos contextos. 
+            b Este contexto que se propone emerge de factores y retos que debes afrontar al pertenecer a la familia digital mundial, para poder manejar con la mayor entereza toda la información que encuentres, donde se redefine continuamente el intercambio rápido y eficiente de conocimiento e información, sin importar tiempo o lugar, como lo has visto dentro de estos contextos. 
     
     .titulo-sexto.color-acento-contenido.mb-3
       h5 Figura 3. 
@@ -742,7 +742,7 @@
     figure.mb-5(data-aos='zoom-in-up')
       img(src='@/assets/curso/74.svg', alt="Imagen que presenta la tríada en el contexto ético.")
 
-    p.mb-4 Las personas, organizaciones y asociaciones públicas o privadas han tenido un crecimiento en respuesta a los nuevos mercados globalizados que hacen impulsar que el conocimiento es público, y debes de trasladar tu comportamiento a los medios digitales con responsabilidad y ética, para lo cual debes apropiar ciertos principios que te servirán para poder hacer uso de la información: 
+    p.mb-4 Las personas, organizaciones y asociaciones públicas o privadas han tenido un crecimiento en respuesta a los nuevos mercados globalizados que hacen impulsar que el conocimiento sea público, y debes trasladar tu comportamiento a los medios digitales con responsabilidad y ética, para lo cual debes apropiar ciertos principios que te servirán para poder hacer uso de la información: 
     
     ol.lista-ol--cuadro
       li 
@@ -756,7 +756,7 @@
       li 
         .lista-ol--cuadro__vineta
           span.text-white 3
-        | Tener integridad y solidaridad con las personas que interactúas.
+        | Tener integridad y solidaridad con las personas con las que interactúas.
       li 
         .lista-ol--cuadro__vineta
           span.text-white 4
@@ -803,7 +803,7 @@ export default {
       {
         titulo: '',
         texto:
-          'Las plataformas digitales pueden ser analizadas a partir de la información que tu dejas en Internet, la cual puede ser tratada, organizada y almacenada en diferentes partes, para poder determinar quién eres y qué quieres. Es así como tu rastro queda registrado y este, a su vez, puede ser compartido; es allí que debes de ser consciente de cómo debes de gestionar tu propia privacidad.',
+          'Las plataformas digitales pueden ser analizadas a partir de la información que tu dejas en Internet, la cual puede ser tratada, organizada y almacenada en diferentes partes, para poder determinar quién eres y qué quieres. Es así como tu rastro queda registrado y este, a su vez, puede ser compartido; es allí donde debes ser consciente de cómo gestionar tu propia privacidad.',
         imagen: require('@/assets/curso/3.jpg'),
       },
       {
@@ -815,7 +815,7 @@ export default {
       {
         titulo: '',
         texto:
-          'La construcción de la identidad es bastante compleja por su permanente construcción y evolución. La realidad del mundo digital impacta de manera directa y es un objeto de estudio que debes de tener presente.',
+          'La construcción de la identidad es bastante compleja por su permanente construcción y evolución. La realidad del mundo digital impacta de manera directa y es un objeto de estudio que debes tener presente.',
         imagen: require('@/assets/curso/5.jpg'),
       },
       {

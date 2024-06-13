@@ -168,14 +168,14 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Aplicación móvil (app) ',
+      termino: 'Aplicación móvil (#[em app]) ',
       significado:
         'programa informático empaquetado para poder ser utilizado en dispositivos móviles. Pueden ser gratuitos o de pago, se descargan de tiendas Android o IOS.',
     },
     {
-      termino: 'Blog ',
+      termino: '#[em Blog]',
       significado:
-        'sitio web que recopila información en orden cronológico, tipo diario; puede ser personal o empresarial; se usa para noticias o artículos. ',
+        'sitio #[em web] que recopila información en orden cronológico, tipo diario; puede ser personal o empresarial; se usa para noticias o artículos. ',
     },
     {
       termino: 'Comunidad ',
@@ -209,7 +209,7 @@ export default {
       referencia:
         'Ecoprensa. (2016). Redes sociales: los límites de lo público y lo privado. elEconomista América.  ',
       link:
-        'https://www.eleconomistaamerica.co/telecomunicacion-tecnologia-cl/noticias/7790793/08/16/Redes-sociales-los-limites-de-lo-publico-y-lo-privado.html',
+        'https://www.eleconomista.es/telecomunicacion-tecnologia-cl/noticias/7790793/08/16/Redes-sociales-los-limites-de-lo-publico-y-lo-privado.html',
     },
     {
       referencia:
@@ -264,7 +264,7 @@ export default {
       referencia:
         'Universidad Pablo de Olavide. (2020). Gestión de la Identidad Digital.  ',
       link:
-        'https://rio.upo.es/xmlui/bitstream/handle/10433/8986/Gestión%20de%20la%20Identidad%20Digital.pdf?sequence=1&isAllowed=y',
+        'https://es.scribd.com/document/600527308/Universidad-Pablo-de-Olavide-2020-Gestion-de-la-Identidad-Digital',
     },
   ],
   creditos: [

@@ -23,7 +23,7 @@
       .contenedor-img__9: img(src='@/assets/curso/77.svg', alt='Texto que describa la imagen' style='width: 180px')
       .row.justify-content-between 
         .col-lg-4
-          p.h2.fw-normal Ahora, has terminado este proceso de formación, y, con los conocimientos adquiridos, podrás saber las implicaciones que tiene tu identidad digital,
+          p.h2.fw-normal Ahora, has terminado este proceso de formación y, con los conocimientos adquiridos, podrás saber las implicaciones que tiene tu identidad digital,
         .col-lg-5
           p.h2.fw-normal las ventajas, riesgos y amenazas a las cuales podrías estar expuesto de acuerdo con la utilización que le des a la información que manejas en la red. 
 </template>
