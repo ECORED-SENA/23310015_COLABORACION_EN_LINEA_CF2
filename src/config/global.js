@@ -168,14 +168,14 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Aplicación móvil (#[em app]) ',
+      termino: 'Aplicación móvil (<i>app</i>) ',
       significado:
         'programa informático empaquetado para poder ser utilizado en dispositivos móviles. Pueden ser gratuitos o de pago, se descargan de tiendas Android o IOS.',
     },
     {
-      termino: '#[em Blog]',
+      termino: '<i>Blog</i>',
       significado:
-        'sitio #[em web] que recopila información en orden cronológico, tipo diario; puede ser personal o empresarial; se usa para noticias o artículos. ',
+        'sitio <i>web</i> que recopila información en orden cronológico, tipo diario; puede ser personal o empresarial; se usa para noticias o artículos. ',
     },
     {
       termino: 'Comunidad ',

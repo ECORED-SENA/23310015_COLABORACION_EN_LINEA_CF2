@@ -275,29 +275,29 @@
             .lista-numerada__texto.ms-2
               p.mb-0 Geolocalización. 
     p.mb-5 Igualmente, además de la información que entregas en los medios digitales, ten en cuenta que hay <b>datos inherentes y subjetivos que hacen y forman parte de tu presencia digital en la red</b>, como:
-    ol.lista-ol--cuadro.mb-5
-        li 
-          .lista-ol--cuadro__vineta
-            span a
-          | Cuántos contactos tienes y hacen parte de tu red.
-        li 
-          .lista-ol--cuadro__vineta
-            span b
-          | Qué tipo de personas son.
-        li 
-          .lista-ol--cuadro__vineta
-            span c
-          | Cuál es tu vínculo y cómo interactúas con todos ellos (cómo aportas y qué te aportan).
-        li 
-          .lista-ol--cuadro__vineta
-            span d
-          | Hasta un comentario puede ser crucial a la hora de hacer identidad digital.
+    ol.lista-ol--cuadro.fa-ul.mb-5
+      li 
+        .lista-ol--cuadro__vineta
+          span a
+        | Cuántos contactos tienes y hacen parte de tu red.
+      li 
+        .lista-ol--cuadro__vineta
+          span b
+        | Qué tipo de personas son.
+      li 
+        .lista-ol--cuadro__vineta
+          span c
+        | Cuál es tu vínculo y cómo interactúas con todos ellos (cómo aportas y qué te aportan).
+      li 
+        .lista-ol--cuadro__vineta
+          span d
+        | Hasta un comentario puede ser crucial a la hora de hacer identidad digital.
     p.mb-5 Todo esto debido a que, en la sociedad de la información, todo es valorado positiva o negativamente, independientemente de los roles que ejerzas.
     p A continuación, en la siguiente gráfica, se presentan algunos roles valorados por las empresas y que pueden ser de tu interés y colaboración en el entorno social que te desenvuelves.
 
-    h4(data-aos='fade-right').mb-5 Perfiles digitales para las empresas
+    h4(data-aos='fade-right').mb-5.pb-5 Perfiles digitales para las empresas
 
-    .row.my-3
+    .row.my-3.pt-5
       .col-lg-4.margin-bottom
         .tarjeta-avatar.borde-1.py-5.px-3.h-100
           .avatar-1
@@ -379,97 +379,67 @@
             p.mb-0
               b  Antes de entrar a mirar los tipos de identidad que existen en el mundo digital, es importante que conozcas que las experiencias <i>online</i> de cada uno de los usuarios son diferentes y toman actitudes propias evaluadas desde su comportamiento en la red, desde la hiperactividad en todos sus servicios hasta incluso la ausencia total de participación. Como sabes, las interacciones digitales son cada vez más rápidas e inmersivas, este tipo de comunicaciones se hacen cada vez más masivas, y las conexiones síncronas son más frecuentes y enriquecedoras, porque el estar en tiempo real, no solo en voz sino en audio y video, hace que la experiencia sea mucho más atractiva e incluso adictiva.
     p.mb-5 La identidad digital ofrece muchas más posibilidades para interactuar con más elementos que se parecen a la realidad tangible de interrelacionarse, debido a que puedes saber qué piensan, sienten, hacen o creen las personas con las que te relacionas, y ello contribuye, sin lugar a dudas, a construir y poder configurar tu propia identidad digital e, igualmente, la colectiva, dentro de un grupo social, a pesar de que dicha identidad puede ser inexacta, debido paradójicamente a la gran cantidad de información. Las características de la identidad digital son:
-    .row.mb-5.justify-content-center
-      .col-lg-10
-        #carouselExampleIndicators.carousel.slide.mb-5(data-bs-ride='carousel')
-          .carousel-indicators
-            button.active(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='0' aria-current='true' aria-label='Slide 1')
-            button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='1' aria-label='Slide 2')
-            button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='2' aria-label='Slide 3')
-            button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='3' aria-label='Slide 4')
-            button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='4' aria-label='Slide 5')
-            button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='5' aria-label='Slide 6')
-            button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='6' aria-label='Slide 7')
-            button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='7' aria-label='Slide 8')
-            button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='8' aria-label='Slide 9')
-            button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='9' aria-label='Slide 10')
-            button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='10' aria-label='Slide 11')
-            button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='11' aria-label='Slide 1')
-          .carousel-inner.bg--2-claro-2.py-5
-            .carousel-item.active
-              .row
-                .col-lg-4: img(src='@/assets/curso/34.jpg')
-                .col-lg-8
-                  h4 Social
-                  p Característica de poder interactuar con otra persona o grupo social de personas.
+    .row.mb-5.justify-content-center.pb-5
+      .col-lg-10.pb-5
+        .tarjeta.color-acento-contenido.p-4(data-aos="fade-left")      
+          SlyderA(tipo="b")
+           .row.justify-content-center.p-2
+              .col-lg-4: img(src='@/assets/curso/34.jpg')
+              .col-lg-8
+                h4 Social
+                p Característica de poder interactuar con otra persona o grupo social de personas.
 
-            .carousel-item
-              .row
-                .col-lg-4: img(src='@/assets/curso/35.jpg')
-                .col-lg-8
-                  h4 Subjetiva
-                  p Cada persona percibe a los demás desde su punto de vista, no existe un patrón concreto. 
-            .carousel-item
-              .row
-                .col-lg-4: img(src='@/assets/curso/36.jpg')
-                .col-lg-8
-                  h4 Referencial
-                  p Sirve de referencia para los demás usuarios y su comportamiento en la red.
-            .carousel-item
-              .row
-                .col-lg-4: img(src='@/assets/curso/37.jpg')
-                .col-lg-8
-                  h4 Crítica
-                  p La información personal es sensible y puede ser manipulada por terceros, lo que implica riesgos para las personas.
-            .carousel-item
-              .row
-                .col-lg-4: img(src='@/assets/curso/38.jpg')
-                .col-lg-8
-                  h4 Compuesta
-                  p Viene dada por diferentes elementos que pueden ser intrínsecos o procedentes de la sociedad digital.
-            .carousel-item
-              .row
-                .col-lg-4: img(src='@/assets/curso/39.jpg')
-                .col-lg-8
-                  h4 Dinámica
-                  p Es flexible y cambiante, siempre están apareciendo nuevos componentes.
-            .carousel-item
-              .row
-                .col-lg-4: img(src='@/assets/curso/40.jpg')
-                .col-lg-8
-                  h4 Contextual
-                  p Depende de los contextos sociales en que se desenvuelven las personas, son los perfiles que realice y comparta con los demás.
-            .carousel-item
-              .row
-                .col-lg-4: img(src='@/assets/curso/41.jpg')
-                .col-lg-8
-                  h4 Accesible y ordenada cronológicamente
-                  p La información sobre los usuarios se conserva en el tiempo y puede ser consultada de forma permanente. Así esta sea borrada por quien la originó, esta puede permanecer, ya que fue compartida por otros y siempre quedan huellas y rastros digitales.
-            .carousel-item
-              .row
-                .col-lg-4: img(src='@/assets/curso/42.jpg')
-                .col-lg-8
-                  h4 Inexacta
-                  p La identificación de un perfil siempre tiene errores, además de que no puede pertenecer a la realidad.
-            .carousel-item
-              .row
-                .col-lg-4: img(src='@/assets/curso/43.jpg')
-                .col-lg-8
-                  h4 Es indirecta
-                  p Todo lo que se publique o publique alguien, generalmente, es por referencias y comentarios.
-            .carousel-item
-              .row
-                .col-lg-4: img(src='@/assets/curso/44.jpg')
-                .col-lg-8
-                  h4 Es compuesta
-                  p La identidad digital se constituye por el conjunto de aportes de la persona y de los demás que están inmersos como contactos, sin la participación o consentimiento de quien publica una información.
+           .row.justify-content-center.p-2
+              .col-lg-4: img(src='@/assets/curso/35.jpg')
+              .col-lg-8
+                h4 Subjetiva
+                p Cada persona percibe a los demás desde su punto de vista, no existe un patrón concreto. 
+           .row.justify-content-center.p-2
+              .col-lg-4: img(src='@/assets/curso/36.jpg')
+              .col-lg-8
+                h4 Referencial
+                p Sirve de referencia para los demás usuarios y su comportamiento en la red.
+           .row.justify-content-center.p-2
+              .col-lg-4: img(src='@/assets/curso/37.jpg')
+              .col-lg-8
+                h4 Crítica
+                p La información personal es sensible y puede ser manipulada por terceros, lo que implica riesgos para las personas.
+           .row.justify-content-center.p-2
+              .col-lg-4: img(src='@/assets/curso/38.jpg')
+              .col-lg-8
+                h4 Compuesta
+                p Viene dada por diferentes elementos que pueden ser intrínsecos o procedentes de la sociedad digital.
+           .row.justify-content-center.p-2
+              .col-lg-4: img(src='@/assets/curso/39.jpg')
+              .col-lg-8
+                h4 Dinámica
+                p Es flexible y cambiante, siempre están apareciendo nuevos componentes.
+           .row.justify-content-center.p-2
+              .col-lg-4: img(src='@/assets/curso/40.jpg')
+              .col-lg-8
+                h4 Contextual
+                p Depende de los contextos sociales en que se desenvuelven las personas, son los perfiles que realice y comparta con los demás.
+           .row.justify-content-center.p-2
+              .col-lg-4: img(src='@/assets/curso/41.jpg')
+              .col-lg-8
+                h4 Accesible y ordenada cronológicamente
+                p La información sobre los usuarios se conserva en el tiempo y puede ser consultada de forma permanente. Así esta sea borrada por quien la originó, esta puede permanecer, ya que fue compartida por otros y siempre quedan huellas y rastros digitales.
+           .row.justify-content-center.p-2
+              .col-lg-4: img(src='@/assets/curso/42.jpg')
+              .col-lg-8
+                h4 Inexacta
+                p La identificación de un perfil siempre tiene errores, además de que no puede pertenecer a la realidad.
+           .row.justify-content-center.p-2
+              .col-lg-4: img(src='@/assets/curso/43.jpg')
+              .col-lg-8
+                h4 Es indirecta
+                p Todo lo que se publique o publique alguien, generalmente, es por referencias y comentarios.
+           .row.justify-content-center.p-2
+            .col-lg-4: img(src='@/assets/curso/44.jpg')
+            .col-lg-8
+              h4 Es compuesta
+              p La identidad digital se constituye por el conjunto de aportes de la persona y de los demás que están inmersos como contactos, sin la participación o consentimiento de quien publica una información.
 
-          button.carousel-control-prev(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide='prev')
-            span.carousel-control-prev-icon(aria-hidden='true')
-            span.visually-hidden Previous
-          button.carousel-control-next(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide='next')
-            span.carousel-control-next-icon(aria-hidden='true')
-            span.visually-hidden Next
     .contenedor.bg--2-claro-2.p-5.my-5
       .avatar: img(src='@/assets/curso/avatar1.svg', alt='Texto que describa la imagen' style='width: 582px')
       .contenedor-img__5: img(src='@/assets/curso/45.svg', alt='Texto que describa la imagen' style='width: 370px')
@@ -539,7 +509,7 @@
           .col-md-7.mb-4.mb-md-0
             h4 Redes sociales
             p El uso de estas plataformas de comunicación y colaboración ha tomado mucho auge en el mundo digital. Es una de las mejores formas para poder tener tu propia identidad digital, ya que puedes crear perfiles y compartir todo tipo de información (fotos, videos, etc.). Muchas plataformas permiten configurar tu privacidad y solo mostrar lo que tú quieras, pero esto no hace que sus datos estén totalmente protegidos, ya que depende de ti cómo compartas y divulgues tus datos ante los demás contactos, y estos pueden hacer lo mismo.
-      .py-3.py-md-4(titulo="#[em Blogs]")
+      .py-3.py-md-4(titulo="<i>Blogs</i>")
         .row.px-5
           .col-md-5
             figure
@@ -744,7 +714,7 @@
 
     p.mb-4 Las personas, organizaciones y asociaciones públicas o privadas han tenido un crecimiento en respuesta a los nuevos mercados globalizados que hacen impulsar que el conocimiento sea público, y debes trasladar tu comportamiento a los medios digitales con responsabilidad y ética, para lo cual debes apropiar ciertos principios que te servirán para poder hacer uso de la información: 
     
-    ol.lista-ol--cuadro
+    ol.lista-ol--cuadro.fa-ul
       li 
         .lista-ol--cuadro__vineta
           span.text-white.text 1
