@@ -20,7 +20,7 @@
             | Ingresa al siguiente recurso para que conozcas sobre ello.
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/TeN6cshToLU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/gjW9tuPpVT4?si=n7i2JAGLEuzHnmHx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     p Para la elaboración de este componente, se abordaron varios autores conocidos en identidad digital, de quienes se han citado y referenciado conceptos y ejemplos para los fines educativos de esta materia, en el entendido de que el conocimiento es social y, por lo tanto, es para ser usado por quienes necesitan adquirirlo. Se espera que este recurso sea útil para todos aquellos, aprendices y lectores en general, que estén interesados en acercarse a asuntos básicos de las <b>habilidades digitales para la comunicación y colaboración en línea.</b>
 
 

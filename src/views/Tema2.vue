@@ -17,7 +17,7 @@
 
     figure.mb-5.pb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/cmJDv36nogY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/yJR222n5-tg?si=zTQV6M2QRb-fMGtX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .contenedor.bg--4-claro.p-5.mb-5
       .avatar: img(src='@/assets/curso/avatar1.svg', alt='Texto que describa la imagen' style='width: 582px')
