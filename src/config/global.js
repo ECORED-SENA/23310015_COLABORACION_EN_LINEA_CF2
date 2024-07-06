@@ -123,7 +123,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/23310015_CF02_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -351,7 +351,7 @@ export default {
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Animador y Productor Multimedia',
+          nombre: 'Andrés Felipe Guevara Ariza',
           cargo: 'Locución ',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
