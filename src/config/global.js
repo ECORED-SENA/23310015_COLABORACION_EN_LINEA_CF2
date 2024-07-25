@@ -150,25 +150,28 @@ export default {
       referencia:
         'Gobierno de la Provincia de Buenos Aires, UNICEF & Faro Digital. (2016). Guía de sensibilización sobre Convivencia Digital. ',
       tipo: 'PDF',
-      descarga: '/downloads/COM-Guia_ConvivenciaDigital_ABRIL2017.pdf',
+      link:
+        'https://www.unicef.org/argentina/sites/unicef.org.argentina/files/2018-04/COM-Guia_ConvivenciaDigital_ABRIL2017.pdf',
     },
     {
       tema: 'Identidad digital ',
       referencia:
         'Fundación Telefónica. (2013). Identidad Digital: El nuevo usuario en el mundo digital. Editorial Ariel. ',
       tipo: 'PDF',
-      descarga: '/downloads/identidad_digital.pdf',
+      link:
+        'https://www.ufasta.edu.ar/biblioteca/files/2017/02/identidad_digital.pdf',
     },
     {
       tema: 'Leyes y tratamiento de datos  ',
       referencia: 'Universidad de Alicante. (2019). <em>Netiqueta.</em> ',
       tipo: 'PDF',
-      descarga: '/downloads/CI2_intermedio_2017-18_Netiqueta.pdf',
+      link:
+        'https://rua.ua.es/dspace/bitstream/10045/79601/2/CI2_intermedio_2017-18_Netiqueta.pdf ',
     },
   ],
   glosario: [
     {
-      termino: 'Aplicación móvil (<i>app</i>) ',
+      termino: 'Aplicación móvil (<i>app</i>)',
       significado:
         'programa informático empaquetado para poder ser utilizado en dispositivos móviles. Pueden ser gratuitos o de pago, se descargan de tiendas Android o IOS.',
     },
@@ -178,17 +181,17 @@ export default {
         'sitio <i>web</i> que recopila información en orden cronológico, tipo diario; puede ser personal o empresarial; se usa para noticias o artículos. ',
     },
     {
-      termino: 'Comunidad ',
+      termino: 'Comunidad',
       significado:
         'grupo de personas que se reúnen para poder compartir información de interés y se comunican de manera síncrona o asíncrona. ',
     },
     {
-      termino: 'Firma digital ',
+      termino: 'Firma digital',
       significado:
         'documento electrónico cifrado para proteger información y verificar la fuente desde donde fue emitida.',
     },
     {
-      termino: 'Identidad digital ',
+      termino: 'Identidad digital',
       significado:
         'rasgos que una persona, grupo u organización tiene en medios digitales, generados a partir de su actuar en la red.',
     },
@@ -288,26 +291,25 @@ export default {
       autores: [
         {
           nombre: 'Pedro Javier Lozada Villota',
-          cargo: 'Experto temático',
+          cargo: 'Experto Temático',
           centro:
             'Centro de Teleinformática y Producción Industrial - Regional Cauca',
         },
         {
           nombre: 'Paula Andrea Taborda Ortiz',
-          cargo: 'Diseñadora instruccional',
-          centro: 'Centro de Diseño y Metrología - Regional distrito capital',
+          cargo: 'Diseñadora Instruccional',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Asesor Metodológico y Pedagógico',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Ana Catalina Córdoba Sus',
-          cargo: 'Revisora Metodológica y Pedagógica',
-          centro:
-            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
-        },
-        {
-          nombre: 'José Gabriel Ortiz Abella',
-          cargo: 'Corrector de estilo',
-          centro:
-            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+          cargo: 'Evaluadora Instruccional',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
     },
@@ -315,34 +317,37 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Yerson Fabian Zarate',
-          cargo: 'Diseño web',
+          nombre: 'Yerson Fabián Zárate Saavedra',
+          cargo: 'Diseñador de Contenidos Digitales ',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Edgar Mauricio Cortes García',
-          cargo: 'Desarrollo front-end',
+          nombre: 'Yuly Andrea Rey Quiñonez',
+          cargo: 'Diseño Web',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Edgar Mauricio Cortés García',
+          cargo: 'Desarrollador Fullstack',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Zuleidy María Ruiz Torres',
-          cargo: 'Producción audiovisual',
+          nombre: 'Edgar Mauricio Cortés García',
+          cargo: 'Actividad Didáctica',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Wilson Andrés Arenales Cáceres',
-          cargo: 'Producción audiovisual',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Camilo Andres Bolaño Rey',
+          cargo: 'Desarrollo Frontend',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'María Carolina Tamayo Lopez ',
-          cargo: 'Producción audiovisual',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Carlos Eduardo Garavito Parada',
-          cargo: 'Producción audiovisual',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Andrés Mauricio Santaella Ochoa',
+          cargo: 'Soporte Frontend',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Daniela Muñoz Bedoya',
@@ -352,7 +357,7 @@ export default {
         },
         {
           nombre: 'Andrés Felipe Guevara Ariza',
-          cargo: 'Locución ',
+          cargo: 'Locución',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
@@ -361,11 +366,11 @@ export default {
     {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
-        {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
+        //{
+        //  nombre: 'Luis Gabriel Urueta Alvarez',
+        //  cargo: 'Validador de Recursos Educativos Digitales',
+        //  centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        //},
         {
           nombre: 'Jaime Hernán Tejada Llano',
           cargo: 'Validador de Recursos Educativos Digitales',

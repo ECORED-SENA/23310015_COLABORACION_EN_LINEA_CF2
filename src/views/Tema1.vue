@@ -61,7 +61,7 @@
               tr
                 td Formal, especializado.
               tr
-                td Interacción impersonal, masiva.
+                td Interacción impersonal y masiva.
               tr
                 td Impuesta.
               tr
@@ -69,7 +69,7 @@
               tr
                 td Contenido objetivo.
               tr
-                td Espacios sociales comunes, empresariales.
+                td Espacios sociales comunes y empresariales.
                 
 
       .col-lg-5
@@ -131,8 +131,10 @@
       |Teniendo clara la diferencia entre perfil digital público y privado, se debe tener presente que las personas y empresas utilizan diferentes tipos de perfiles digitales, dependiendo de las necesidades que tienen. Por ejemplo:
     .row.mb-5.justify-content-center
       .col-lg-10
-        figure.mb-5(data-aos='zoom-in-up')
-          img(src='@/assets/curso/13.svg', alt='Diferencias de los perfiles')
+        .titulo-sexto.color-acento-contenido
+          p.mb-0 #[b Figura 1.] Perfil digital público vs. Perfil digital privado
+        figure(data-aos='zoom-in-up')
+          img(src='@/assets/curso/13.svg', alt='Imagen que presenta las diferencias entre un perfil digital público y un perfil digital privado.')
     p.mb-5 Hoy en día, todos tienen una identidad digital. Con la aparición de los dispositivos móviles y el uso masivo de los mismos, dejas rastros de información personal en todo momento; por lo tanto, es necesario desarrollar algunas habilidades digitales que debe tener el ciudadano del siglo XXI, las cuales se requieren apropiar con una actitud:
     .row.mb-5.justify-content-center
       .col-lg-6
@@ -165,10 +167,9 @@
 
       //.col-lg-8(data-aos='fade-left')
         .ps-3
-    .titulo-sexto.color-acento-contenido.mb-3
-      h5 Figura 1. 
-      span Identidad digital  
-    img.mb-4(src='@/assets/curso/18b.svg', alt='Imagen que representa gráficamente, la identidad cultural.')
+    .titulo-sexto.color-acento-contenido.mb-4
+      p.mb-0 #[b Figura 2. ] Identidad digital  
+    img.mb-4(src='@/assets/curso/18b.svg', alt='Imagen que presenta en qué áreas se trabaja con la identidad digital.')
     
     p.mb-5 La configuración de la identidad digital de una persona, organización o cualquier participante de las nuevas herramientas digitales de colaboración y participación se cataloga como:
 
@@ -200,12 +201,10 @@
         .cajon.color-primario.bg--1-claro.p-4.mb-4
           p La construcción de una identidad puede verse desde las participaciones activas positivas o desacertadas de cómo te comportas en la red, y dichos patrones se verán reflejados en tu reputación y la privacidad de tu información, que, gestionados de manera efectiva, desarrollan habilidades y conciencia del impacto que tiene la información que se publica sobre ti para minimizar en todo lo posible los riesgos y amenazas.
 
-    .titulo-sexto.color-acento-contenido.mb-3
-      h5 Figura 2. 
-      span Reputación digital
-
+    .titulo-sexto.color-acento-contenido.mb-4
+      p.mb-0 #[b Figura 3.] Reputación digital
     figure.mb-5(data-aos='zoom-in-up')
-      img(src='@/assets/curso/23.svg', alt='Imagen que presenta la reputación digital.')
+      img(src='@/assets/curso/23.svg', alt='Imagen que presenta diferentes eventos mediante los cuales se adquiere reputación digital.')
 
     #t_1_3.titulo-segundo(data-aos='fade-right')
       h2 1.3 Elementos de la identidad digital
@@ -279,15 +278,15 @@
       li 
         .lista-ol--cuadro__vineta
           span a
-        | Cuántos contactos tienes y hacen parte de tu red.
+        | ¿Cuántos contactos tienes y hacen parte de tu red?
       li 
         .lista-ol--cuadro__vineta
           span b
-        | Qué tipo de personas son.
+        | ¿Qué tipo de personas son?
       li 
         .lista-ol--cuadro__vineta
           span c
-        | Cuál es tu vínculo y cómo interactúas con todos ellos (cómo aportas y qué te aportan).
+        | ¿Cuál es tu vínculo y cómo interactúas con todos ellos (cómo aportas y qué te aportan)?
       li 
         .lista-ol--cuadro__vineta
           span d
@@ -590,7 +589,7 @@
             img(src='@/assets/curso/100.svg', alt='Texto que describa la imagen')
           .contenido
             h4 Dato público
-            p Son los que puedes entregar a una persona, organización o entidad, ya sea pública o privada, para poder identificarte, y están enmarcados en la ley bajo la protección de la Constitución Política
+            p Son los que puedes entregar a una persona, organización o entidad, ya sea pública o privada, para poder identificarte, y están enmarcados en la ley bajo la protección de la Constitución Política.
       .col-lg-3.mb-4
         .tarjeta.tarjeta--hover.bg--3.p-4.h-100.hover
           .img--hover
@@ -705,12 +704,10 @@
           p
             b Este contexto que se propone emerge de factores y retos que debes afrontar al pertenecer a la familia digital mundial, para poder manejar con la mayor entereza toda la información que encuentres, donde se redefine continuamente el intercambio rápido y eficiente de conocimiento e información, sin importar tiempo o lugar, como lo has visto dentro de estos contextos. 
     
-    .titulo-sexto.color-acento-contenido.mb-3
-      h5 Figura 3. 
-      span Tríada en el contexto ético
-
+    .titulo-sexto.color-acento-contenido.mb-4
+      p.mb-0 #[b Figura 4.] Tríada en el contexto ético
     figure.mb-5(data-aos='zoom-in-up')
-      img(src='@/assets/curso/74.svg', alt="Imagen que presenta la tríada en el contexto ético.")
+      img(src='@/assets/curso/74.svg', alt="Imagen que presenta la tríada en el contexto ético, la cual está compuesta por la tecnología, los valores y las personas.")
 
     p.mb-4 Las personas, organizaciones y asociaciones públicas o privadas han tenido un crecimiento en respuesta a los nuevos mercados globalizados que hacen impulsar que el conocimiento sea público, y debes trasladar tu comportamiento a los medios digitales con responsabilidad y ética, para lo cual debes apropiar ciertos principios que te servirán para poder hacer uso de la información: 
     
@@ -773,7 +770,7 @@ export default {
       {
         titulo: '',
         texto:
-          'Las plataformas digitales pueden ser analizadas a partir de la información que tu dejas en Internet, la cual puede ser tratada, organizada y almacenada en diferentes partes, para poder determinar quién eres y qué quieres. Es así como tu rastro queda registrado y este, a su vez, puede ser compartido; es allí donde debes ser consciente de cómo gestionar tu propia privacidad.',
+          'Las plataformas digitales pueden ser analizadas a partir de la información que tú dejas en Internet, la cual puede ser tratada, organizada y almacenada en diferentes partes, para poder determinar quién eres y qué quieres. Es así como tu rastro queda registrado y este, a su vez, puede ser compartido; es allí donde debes ser consciente de cómo gestionar tu propia privacidad.',
         imagen: require('@/assets/curso/3.jpg'),
       },
       {
